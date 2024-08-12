@@ -24,7 +24,7 @@ const Nav = ({setdata,data}) => {
         </div>
         <div className='tog' onClick={()=>setdata(!data)}>
             {
-              data==0?<img src={tog}></img>:<img src={cross1}></img>
+              data==0?<img src={tog} alt=' '></img>:<img src={cross1} alt=' '></img>
             }
         </div>
       

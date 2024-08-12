@@ -21,27 +21,27 @@ const Service = () => {
       <span  data-aos="fade-down" >Services...</span>
       <div className='rest' data-aos="fade-up">
       <div className='res' style={{backgroundImage:"linear-gradient(#ff839d,#f50b9a)"}}>
-        <img src={img4}></img>
+        <img src={img4} alt=' '></img>
         <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, id.</span>
       </div>
       <div className='res' style={{backgroundImage:"linear-gradient(#d0ffae,#34ebe9)"}}>
-      <img src={img5}></img>
+      <img src={img5} alt=' '></img>
       <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, id.</span>
       </div>
       <div className='res' style={{backgroundImage:"linear-gradient(#fec180,#ff8993)"}}>
-      <img src={img2}></img>
+      <img src={img2} alt=' '></img>
       <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, id.</span>
       </div>
       <div className='res' style={{backgroundImage:"linear-gradient(#efbad3,#a254f3)"}}>
-      <img src={img6}></img>
+      <img src={img6} alt=' '></img>
       <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, id.</span>
       </div>
       <div className='res' style={{backgroundImage:"linear-gradient(#f3dcfb,#679fe4)"}}>
-      <img src={img3}></img>
+      <img src={img3} alt=' '></img>
       <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, id.</span>
       </div>
       <div className='res' style={{backgroundImage:"linear-gradient(#6acbe0,#6859ea)"}}>
-      <img src={img1}></img>
+      <img src={img1} alt=' '></img>
       <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, id.</span>
       </div>
       </div>

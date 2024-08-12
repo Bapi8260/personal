@@ -52,16 +52,16 @@ const Footer = () => {
         </p>
         <div className="footer-icons">
           <a href="#">
-          <img className='face' src={face}></img>
+          <img className='face' src={face} alt=' '></img>
           </a>
           <a href="#">
-          <img className='what' src={what}></img>
+          <img className='what' src={what} alt=' '></img>
           </a>
           <a href="#">
-          <img className='insta' src={insta}></img>
+          <img className='insta' src={insta} alt=' '></img>
           </a>
           <a href="#">
-            <img className='twit' src={twit}></img>
+            <img className='twit' src={twit} alt=' '></img>
           </a>
         </div>
       </div>

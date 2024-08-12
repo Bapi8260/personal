@@ -35,11 +35,11 @@ const Project=()=>{
         className='myswiper'
         
       >
-          <SwiperSlide><div className='con'><img src='	https://uicookies.com/wp-content/uploads/2020/04/mecare-hospital-website-template.png'></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
-        <SwiperSlide><div className='con'><img src=' 	https://colorlib.com/wp/wp-content/uploads/sites/2/ezy-ecommerce-website-template.jpg' ></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
-        <SwiperSlide><div className='con'><img src='	https://ucoztemplates.com/_sh/1/174_1.jpg'></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
-        <SwiperSlide><div className='con'><img src='	https://uicookies.com/wp-content/uploads/2020/04/Easy.jpg'></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
-        <SwiperSlide><div className='con'><img src='	https://vuejsexamples.com/content/images/2021/06/Simple-Quiz.jpg'></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
+          <SwiperSlide><div className='con'><img src='	https://uicookies.com/wp-content/uploads/2020/04/mecare-hospital-website-template.png' alt=' '></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
+        <SwiperSlide><div className='con'><img src=' 	https://colorlib.com/wp/wp-content/uploads/sites/2/ezy-ecommerce-website-template.jpg'alt=' ' ></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
+        <SwiperSlide><div className='con'><img src='	https://ucoztemplates.com/_sh/1/174_1.jpg' alt=' '></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
+        <SwiperSlide><div className='con'><img src='	https://uicookies.com/wp-content/uploads/2020/04/Easy.jpg' alt=' '></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
+        <SwiperSlide><div className='con'><img src='	https://vuejsexamples.com/content/images/2021/06/Simple-Quiz.jpg' alt=' '></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum inventore sequi omnis doloribus ab harum natus possimus ducimus velit!</p></div></SwiperSlide>
       </Swiper>
       </div>
     </div>

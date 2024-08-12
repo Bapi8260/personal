@@ -31,23 +31,23 @@ const Skill = () => {
           {
             value==1?<div className='resize'>
                <diiv className='inresize'>
-                <img src={img10}></img>
+                <img src={img10} alt=' '></img>
                 <span>HTML</span>
                </diiv>
                <diiv className='inresize'>
-                <img src={img6}></img>
+                <img src={img6} alt=' '></img>
                 <span>CSS</span>
                </diiv>
                <diiv className='inresize'>
-                <img src={img5}></img>
+                <img src={img5} alt=' '></img>
                 <span>BOOTSTRAP</span>
                </diiv>
                <diiv className='inresize'>
-                <img src={img8}></img>
+                <img src={img8} alt=' '></img>
                 <span>JAVASCRIPT</span>
                </diiv>
                <diiv className='inresize'>
-                <img src={img4}></img>
+                <img src={img4} alt=' '></img>
                 <span>REACT</span>
                </diiv>
 

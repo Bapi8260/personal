@@ -18,7 +18,7 @@ const Contact = () => {
         </div>
         <div className='mspart'>
           <div className='msimg' data-aos="fade-right">
-            <img src={img1}></img>
+            <img src={img1} alt=' '></img>
           </div>
         
            <div className='details' data-aos="fade-left">
