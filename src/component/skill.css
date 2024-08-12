@@ -1,0 +1,205 @@
+.part{
+    height:50vh;
+    position: relative;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tab{
+   height: 85%;
+   width:60%;
+   border-radius: 20px;
+   box-shadow: 0 0 10px black;
+   margin-top: 2%;position: relative;
+ 
+}
+.heading{
+    font-size: 2rem;
+    color: yellow;
+}
+.tabnav{
+    height: 22%;
+    width: 100%;
+    background-color: yellow;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: yellow;
+}
+.tabnav span{
+    cursor:pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    background-color: #282c34;
+}
+.tabcon{
+    height:75%;
+    width:100%;
+    position: relative;
+    background-color:  rgba(39, 36, 36, 0.823);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+}
+.resize{
+    height: 100%;
+    width:70%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+}
+.inresize{
+    height:40%;
+    width:32%;
+    margin-left: 10%;
+}
+.inresize img{
+    height:100%;
+    width:100%;
+}
+.inresize span{
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.resize1{
+    height:44%;
+    width:38%;
+    margin-left: 10%;
+}
+.resize1 img{
+    height:70%;
+    width:100%;
+    object-fit: center;
+}
+.resize1 span{
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+@media only screen and (max-width:1025px){
+    .resize{
+        display: grid;
+        grid-template-columns:160px 160px 160px;
+        
+    }
+    .inresize span{
+        font-size: 0.9rem;
+    }
+    .resize1 span{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width:769px){
+    .tab{
+        width:80%;
+    }
+    .resize{
+        display: grid;
+        grid-template-columns:150px 150px 150px;
+        
+    }
+    .inresize span{
+        font-size: 0.8rem;
+    }
+    .resize1 span{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .tab{
+        width:90%;
+        border-radius: 10px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+    .tabcon{
+        height: 78%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .resize{
+        width:90%;
+        display: grid;
+        grid-template-columns:100px 100px 100px;
+        
+    }
+    .inresize{
+        width: 30%;
+    }
+    .inresize span{
+        font-size: 0.7rem;
+    }
+    .resize1{
+        height:35%;
+        width:38%;
+        margin-left: 10%;
+    }
+    .resize1 span{
+        font-size: 0.7rem;
+    }
+    .tabnav{
+        gap:5%;
+        height: 18%;
+    }
+    .tabnav span{
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:321px){
+    .tab{
+        width:80%;
+        border-radius: 10px;
+    }
+    .heading{
+        font-size: 1.3rem;
+        margin-top: 2%;
+    }
+    .tabcon{
+        height: 78%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .resize{
+        width:90%;
+        display: grid;
+        grid-template-columns:120px 120px;
+        
+    }
+    .inresize{
+        width: 30%;
+    }
+    .inresize span{
+        font-size: 0.6rem;
+    }
+    .resize1{
+        height:35%;
+        width:35%;
+        margin-left: 10%;
+    }
+    .resize1 span{
+        font-size: 0.6rem;
+    }
+    .tabnav{
+        gap:5%;
+        height: 18%;
+    }
+    .tabnav span{
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+}

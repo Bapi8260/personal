@@ -1,0 +1,141 @@
+.msg{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+.msimg{
+    height:100%;
+    width:30%;
+    position: relative;
+    object-fit: cover;
+
+}
+.msg img{
+    height: 100%;
+    width:100%;
+    filter:drop-shadow(5px 10px 15px rgb(10, 10, 0));
+    margin-left: 25%;
+}
+.mspart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+}
+.cap{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: yellow;
+    position: relative;
+}
+.details{
+    height: 70%;
+    width:35%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    padding: 50px;
+}
+textarea{
+    background: transparent;
+    color: white;
+    margin: 15px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+form input{
+    background: transparent;
+    padding: 10px 0;
+    padding-left: 10px;
+    border: 1px solid white;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    color: white;
+}
+.sub{
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+.sub:hover{
+    background-color:  #cefa70;
+    cursor: pointer;
+
+}
+@media only screen and (max-width:1030px){
+.details{
+    height:80%;
+}
+}
+@media only screen and (max-width:840px){
+    .mspart{
+        display: flex;
+        flex-direction: column;
+        gap:5%;
+        align-items: flex-start;
+        height: 80%;
+        width: 80%;
+    }
+    .msg{
+        height:130vh;
+        margin-bottom: 8%;
+    }
+    .msimg{
+        height:50%;
+        width:60%;
+    
+    }
+    .details{
+        height: 70%;
+        width:90%;
+        padding: 20px;
+    }
+    }
+@media only screen and (max-width:426px){
+    .cap{
+        font-size: 1.3rem;
+    }
+    .msg{
+      height: 100vh;
+      margin-bottom: 8%;
+    }
+    .msimg{
+        height:50%;
+        width:50%;
+    
+    }
+    .msg img{
+        margin-left: 0%;
+    }
+    .details{
+        height: 70%;
+        width:90%;
+        padding: 10px;
+    }
+    textarea{
+        margin: 10px 0;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    form input{
+        font-size: 0.7rem;
+        border-radius: 10px;
+    }
+    .sub{
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    
+    }
+}
