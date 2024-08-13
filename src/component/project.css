@@ -80,7 +80,7 @@
       width: 45%;
     }
   }
-  @media (max-width:426px){
+  @media (max-width:435px){
     .pro span{
       font-size: 1.3rem;
     }

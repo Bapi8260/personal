@@ -100,7 +100,7 @@ form input{
         padding: 20px;
     }
     }
-@media (max-width:426px){
+@media (max-width:435px){
     .cap{
         font-size: 1.3rem;
     }

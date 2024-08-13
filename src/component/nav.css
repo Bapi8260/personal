@@ -77,10 +77,10 @@ transform: translateX(-100%);
         margin-top: 2%;
     }
 }
-@media (max-width:426px){
+@media (max-width:435px){
     .tog{
         height:70%;
-        width:10%;
+        width:12%;
         margin-top: 3%;
     }
 }
