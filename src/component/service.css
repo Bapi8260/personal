@@ -54,7 +54,7 @@
     opacity: 0.4;
     transform: scale(0.65);
 }
-@media only screen and (max-width:1030px){
+@media (max-width:1030px){
     .serv span{
         font-size: 1.6rem;
         margin-top: 0%;
@@ -89,7 +89,7 @@
         padding: 5px;
     }
 }
-@media only screen and (max-width:850px){
+@media (max-width:850px){
     .serv span{
         font-size: 1.3rem;
         margin-top: 0%;
@@ -124,7 +124,7 @@
         padding: 5px;
     }
 }
-@media only screen and (max-width:426px){
+@media (max-width:426px){
     .serv span{
         font-size: 1.3rem;
         margin-top: 0%;
@@ -157,14 +157,14 @@
         padding: 5px;
     }
 }
-@media only screen and (max-width:390px){
+@media (max-width:390px){
     .rest{
         display: grid;
         grid-template-columns:100px 100px;
         column-gap: 50px;
 }
 }
-@media only screen and (max-width:360px){
+@media (max-width:360px){
     .serv span{
         font-size: 1.3rem;
         margin-top: 0%;

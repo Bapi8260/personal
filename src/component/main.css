@@ -121,7 +121,7 @@ button:hover{
     margin-top: 20px;
     text-align: left;
 }
-@media only screen and (max-width:1025px){
+@media (max-width:1025px){
     .main{
         height: 60vh;
     }
@@ -131,7 +131,7 @@ button:hover{
         margin-top: -9%;
     }
 }
-@media only screen and (max-width:870px){
+@media (max-width:870px){
     .main{
         height: 70vh;
     }
@@ -150,7 +150,7 @@ button:hover{
         font-size: 1.4rem;
     }
 }
-@media only screen and (max-width:600px){
+@media (max-width:600px){
     .content{
         display: flex;
         flex-direction: column-reverse; 
@@ -191,7 +191,7 @@ button:hover{
         
     }
 }
-@media only screen and (max-width:376px){
+@media (max-width:376px){
     .content{
         display: flex;
         flex-direction: column-reverse; 
@@ -230,7 +230,7 @@ button:hover{
         
     }
 }
-@media only screen and (max-width:351px){
+@media (max-width:351px){
     .content{
         display: flex;
         flex-direction: column-reverse; 

@@ -86,7 +86,7 @@
     font-size: 1rem;
     font-weight: bold;
 }
-@media only screen and (max-width:1025px){
+@media (max-width:1025px){
     .resize{
         display: grid;
         grid-template-columns:160px 160px 160px;
@@ -99,7 +99,7 @@
         font-size: 0.9rem;
     }
 }
-@media only screen and (max-width:769px){
+@media (max-width:769px){
     .tab{
         width:80%;
     }
@@ -115,7 +115,7 @@
         font-size: 0.8rem;
     }
 }
-@media only screen and (max-width:600px){
+@media (max-width:600px){
     .tab{
         width:90%;
         border-radius: 10px;
@@ -159,7 +159,7 @@
         font-size: 0.8rem;
     }
 }
-@media only screen and (max-width:321px){
+@media (max-width:321px){
     .tab{
         width:80%;
         border-radius: 10px;

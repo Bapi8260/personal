@@ -71,12 +71,12 @@ form input{
     cursor: pointer;
 
 }
-@media only screen and (max-width:1030px){
+@media (max-width:1030px){
 .details{
     height:80%;
 }
 }
-@media only screen and (max-width:840px){
+@media (max-width:840px){
     .mspart{
         display: flex;
         flex-direction: column;
@@ -100,7 +100,7 @@ form input{
         padding: 20px;
     }
     }
-@media only screen and (max-width:426px){
+@media (max-width:426px){
     .cap{
         font-size: 1.3rem;
     }

@@ -59,7 +59,7 @@ transform: translateX(-100%);
 .list a:hover::after{
     transform: translateX(0%);
 }
-@media only screen and (max-width:1160px){
+@media (max-width:1160px){
     .tog{
         display:block;
         height:70%;
@@ -70,21 +70,21 @@ transform: translateX(-100%);
         display: none;
     }
 }
-@media only screen and (max-width:768px){
+@media (max-width:768px){
     .tog{
         height:70%;
         width:5%;
         margin-top: 2%;
     }
 }
-@media only screen and (max-width:426px){
+@media (max-width:426px){
     .tog{
         height:70%;
         width:10%;
         margin-top: 3%;
     }
 }
-@media only screen and (max-width:321px){
+@media (max-width:321px){
     .tog{
         height:50%;
         width:8%;

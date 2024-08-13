@@ -55,7 +55,7 @@
     padding: 10px;
     text-align: left;
   }
-  @media only screen and (max-width:769px){
+  @media (max-width:769px){
     .pro span{
       font-size: 1.5rem;
       margin-bottom: 0;
@@ -80,7 +80,7 @@
       width: 45%;
     }
   }
-  @media only screen and (max-width:426px){
+  @media (max-width:426px){
     .pro span{
       font-size: 1.3rem;
     }
